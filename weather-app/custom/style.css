@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.login-section{
+    background: url('../images/login-bg.jpg') no-repeat;
+    height: calc(100vh);
+    background-size: 100%;
+}
+.signup-section{
+    background: url('../images/signup-bg.jpg') no-repeat;
+    height: calc(100vh);
+    background-size: 100%;
+}
+.index-section{
+    background: url('../images/main-bg.jpg') no-repeat;
+    height: calc(100vh);
+    background-size: 100%;
+}
+.login-section .container , .signup-section .container{
+    background:rgba(0,0,0,0.5);
+    padding: 30px 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 500px;
+    border-radius: 10px;
+}
+.login-section .container .img-section , .signup-section .container .img-section{
+   margin: 40px 0;
+}
+ .signup-section .container .img-section{
+    margin: 60px 0;
+ }
+.text{
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+.text span{
+    font-weight: 400;
+}
+.login-section .container input , .login-section .container input::placeholder , .signup-section .container input , .signup-section .container input::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+}
+.login-section .container .btn , .signup-section .container .btn{
+    background-color: rgb(17, 80, 136);
+    color: #ffffff;
+    width: 30%;
+    font-size: 16px;
+    font-weight: 600;
+}
+.login-section .container .no-acc{
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+}
+.login-section .container .no-acc a{
+    color: rgb(97, 195, 240);
+}
+/*login signup ends*/
+.index-section .search-section{
+    background:rgba(0,0,0,0.7);
+    padding: 30px;
+    width: 500px;
+    border-radius: 10px;
+}
+.index-section .search-section .form-control{
+    background-color: rgb(43, 41, 41);
+    border: none;
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    padding: 10px ;
+    font-weight: 600;
+}
+.index-section .search-section .form-control:focus{
+    box-shadow: none;
+}
+.index-section .search-section .form-control::placeholder{
+    color: #ffffff;
+    font-weight: 400;
+}
+.index-section .search{
+    background-color: rgb(68, 151, 151);
+    position: absolute;
+    top: 5px;
+    right: 16px;
+    border-radius: 50px;
+    padding: 4px;
+    cursor: pointer;
+}
+.index-section .text1{
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+.index-section .degree{
+    color: #ffffff;
+    background-color: rgb(82, 81, 81);
+    pad: 10px;
+    text-align: center;
+    width: 25%;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    text-shadow: 0 0 10px #000000;
+}
+.index-section .weather-des{
+    color: #ffffff;
+    text-align: center;
+    font-size:15px;
+    font-weight: 600;
+}
+.index-section .weather-des span{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+.index-section .weather-details{
+    color: #ffffff;
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.index-section .card{
+    background-color: rgba(0,0,0,0.7);
+    color: #ffffff;
+    padding: 0;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+
+}
+.index-section .card .card-body{
+    padding: 10px;
+}
+.index-section .card .card-title{
+    color: #34c5ff;
+}
+.index-section .card .day{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+}
+.index-section .card .night{
+    color: #34c5ff;
+    font-weight: 400;
+    font-size: 16px;
+}
+/* .focus-Err{
+    border-color: #f31606;
+    box-shadow: 0 0 0 0.25rem #f7082cb3;
+} */

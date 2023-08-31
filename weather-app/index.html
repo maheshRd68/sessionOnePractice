@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="custom/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!--google fonts Montserrat-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <section class="index-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 search-section d-block me-auto ms-auto mt-5">
+                    <form class="row g-3">
+                        <div class="col-md-12 position-relative">
+                          <input type="text" class="form-control" id="search-input" list="place" autocomplete="additional-name" placeholder="Search City...">
+                        <datalist id="place" class="weather-component_datalist"></datalist> 
+                        <!-- get data from javascript -->
+                          <div class="search"id="search-btn">
+                            <img src="./images/search.png" class="img-fluid" alt="">
+                          </div>
+                        </div>
+                    </form>
+                    <div class="text1 mt-3" id="city_info"></div>
+                    <div class="degree d-block ms-auto me-auto mt-3"><span id="temp"></span> <sup>o</sup>C</div>
+                    <div class="weather-des mt-3"><img src="./images/cloud.png" class="img-fluid me-2 mt-1" alt="">SCATTERED CLOUDS <span class="ms-2">Air Quality: 97 (Satisfactory)</span></div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="weather-details" ><img src="./images/water.png" class="img-fluid me-2" alt=""> Humidity <span  id="humidity"></span>%</div>
+                            <div class="weather-details" ><img src="./images/storm.png" class="img-fluid me-2"  alt=""> wind speed <span id="Wind_speed"></span> km/h</div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="weather-details"><img src="./images/sunrise.png" class="img-fluid me-2" alt="">Sunrise: <span id="sunrise">5:42 AM</span></div>
+                            <div class="weather-details"><img src="./images/sunset.png" class="img-fluid me-2" alt="">Sunset: <span id="sunset">6:52 PM</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-3 mb-2">
+                    <div class="card text-center">
+                        <div class="card-body">
+                          <h5 class="card-title">Sunday</h5>
+                          <img src="./images/cloud.png" class="img-fluid" alt="">
+                          <div class="day">Day: 33.23 <sup>o</sup>C</div>
+                          <div class="night">Night: 33.97 <sup>o</sup>C</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-2">
+                    <div class="card text-center">
+                        <div class="card-body">
+                          <h5 class="card-title">Monday</h5>
+                          <img src="./images/cloud.png" class="img-fluid" alt="">
+                          <div class="day">Day: 33.23 <sup>o</sup>C</div>
+                          <div class="night">Night: 33.97 <sup>o</sup>C</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-2">
+                    <div class="card text-center">
+                        <div class="card-body">
+                          <h5 class="card-title">Tuesday</h5>
+                          <img src="./images/cloud.png" class="img-fluid" alt="">
+                          <div class="day">Day: 33.23 <sup>o</sup>C</div>
+                          <div class="night">Night: 33.97 <sup>o</sup>C</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-2">
+                    <div class="card text-center">
+                        <div class="card-body">
+                          <h5 class="card-title">Wednesday</h5>
+                          <img src="./images/cloud.png" class="img-fluid" alt="">
+                          <div class="day">Day: 33.23 <sup>o</sup>C</div>
+                          <div class="night">Night: 33.97 <sup>o</sup>C</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-2">
+                    <div class="card text-center">
+                        <div class="card-body">
+                          <h5 class="card-title">Thursday</h5>
+                          <img src="./images/cloud.png" class="img-fluid" alt="">
+                          <div class="day">Day: 33.23 <sup>o</sup>C</div>
+                          <div class="night">Night: 33.97 <sup>o</sup>C</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-2">
+                    <div class="card text-center">
+                        <div class="card-body">
+                          <h5 class="card-title">Friday</h5>
+                          <img src="./images/cloud.png" class="img-fluid" alt="">
+                          <div class="day">Day: 33.23 <sup>o</sup>C</div>
+                          <div class="night">Night: 33.97 <sup>o</sup>C</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-2">
+                    <div class="card text-center">
+                        <div class="card-body">
+                          <h5 class="card-title">Saturday</h5>
+                          <img src="./images/cloud.png" class="img-fluid" alt="">
+                          <div class="day">Day: 33.23 <sup>o</sup>C</div>
+                          <div class="night">Night: 33.97 <sup>o</sup>C</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-2">
+                    <div class="card text-center">
+                        <div class="card-body">
+                          <h5 class="card-title">Sunday</h5>
+                          <img src="./images/cloud.png" class="img-fluid" alt="">
+                          <div class="day">Day: 33.23 <sup>o</sup>C</div>
+                          <div class="night">Night: 33.97 <sup>o</sup>C</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script type="module" src="index_script.js"></script>
+</body>
+</html>

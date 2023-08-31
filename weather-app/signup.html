@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="custom/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!--google fonts Montserrat-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <section class="signup-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 img-section">
+                    <img src="./images/logo.png" class="img-fluid" alt="">
+                    <div class="text">Webla <span>cloud</span></div>
+                </div>
+                <div class="col-md-8">
+                    <form class="row g-3">
+                        <div class="col-md-12">
+                          <input type="text" class="form-control focus-Err" id="username" onblur="validate()" placeholder="Username">
+                          <small class="text-danger d-none" id="error-msg">username is invalid.</small>
+                        </div>
+                        <div class="col-md-12">
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                          </div>
+                        <div class="col-md-12">
+                          <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <div class="col-md-12">
+                            <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm Password">
+                          </div>
+                        <div class="col-12 text-center">
+                          <button type="submit" class="btn btn-primary">Sign up</button>
+                        </div>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="../signup script.js"></script>
+</body>
+</html>
